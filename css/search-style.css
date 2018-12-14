@@ -1,0 +1,138 @@
+*
+{
+    font-family: 'Changa', sans-serif;
+}
+h1 {
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 30px;
+  padding: 40px 0 10px 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.filters {
+    position: fixed;
+    top:0;
+    right:0;
+    bottom:0;
+    height: 100%;
+    width: 20%;
+    text-align: center;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: #fff;
+}
+
+
+.filters::-webkit-scrollbar {
+    background-color:#fff;
+    width:16px
+}
+
+/* background of the scrollbar except button or resizer */
+.filters::-webkit-scrollbar-track {
+    background-color:#fff
+}
+.filters::-webkit-scrollbar-track:hover {
+    background-color:#f4f4f4
+}
+
+/* scrollbar itself */
+.filters::-webkit-scrollbar-thumb {
+    background-color:#babac0;
+    border-radius:16px;
+    border:5px solid #fff
+}
+.filters::-webkit-scrollbar-thumb:hover {
+    background-color:#a0a0a5;
+    border:4px solid #f4f4f4
+}
+
+/* set button(top and bottom of the scrollbar) */
+.filters::-webkit-scrollbar-button {
+    display:none
+}
+
+
+.filters h1
+{
+    margin-top: 0;
+}
+.filters ul
+{
+    padding:0;
+}
+.filters li {
+  /*border: 1px solid #ccc;*/
+    margin: auto;
+    text-align: center;
+    display: block;
+    padding: 4px 12px;
+    cursor: pointer;
+    text-align: center;
+}
+.filters li img
+{
+    filter: grayscale(100%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+.filters h3.text,
+.filters h3.text
+{
+    margin-top:10px;
+}
+.filters li.active img,
+.filters li:hover img
+{
+    filter: grayscale(0%);
+}
+
+
+/*
+.container {
+  width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+*/
+.data
+{
+    background-color: #fff;
+}
+.data .container
+{
+    padding-right:22.15vw;
+}
+.post {
+    width:100%;
+    margin: 40px auto 100px;
+    text-align: right;
+}
+.post-img
+{
+    width:100%;
+}
+.post-img img
+{
+    max-width:100%;
+}
+.post-title {
+    font-size: 70px;
+    line-height: 1;
+    font-weight: 700;
+    margin-bottom: 30px;
+    padding:10px 0;
+}
+.post-txt {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.625;
+}
