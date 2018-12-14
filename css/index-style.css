@@ -1,0 +1,57 @@
+a
+{
+    text-decoration: none;
+    color: #fff;
+}
+a:hover
+{
+    text-decoration: none;
+    color:#000;
+}
+img, video
+{
+    width:100%;
+}
+
+.container
+{
+    width:80vw !important;
+    margin: auto;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Changa', sans-serif;
+
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: Arial;
+    font-size: 17px;
+}
+
+#homeVideo {
+    position: fixed;
+    top:-40px;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+.content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    transition: all 0.5s;
+}
+.content:hover
+{
+    background-color: rgba(0, 0, 0, 0.7);
+    color:#fff;
+}
